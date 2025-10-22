@@ -30,8 +30,6 @@ CSS 3 (with custom variables & media queries)
 Vanilla JavaScript
 
 💻Quick Start
-git clone https://github.com/BalogunAyobami/Responsive-Portfolio.git
-cd Responsive-Portfolio
-
+git clone [https://github.com/MickGared/HNG-Stage-1-Profile-Card.git]
 
 Then simply open index.html in your browser. 🌍
