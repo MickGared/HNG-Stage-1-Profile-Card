@@ -4,7 +4,7 @@
 A responsive, accessible portfolio project featuring a profile card, a contact form with validation, and a reflective about page.
 Built using semantic HTML, modern CSS, and vanilla JavaScript.
 
-🗃️Pages
+🗃️Pages -
 
 Profile (index.html) – A modern, responsive profile card with social links, hobbies, dislikes, and a live local-time display.
 
@@ -12,7 +12,7 @@ Contact (contact.html) – Accessible contact form with built-in client-side val
 
 About (about.html) – Reflective page sharing bio, goals, areas of growth, and notes to the future self.
 
-✨ Features
+✨ Features =
 
 ✅ Fully Responsive – Mobile-first layout adapting across devices.
 ✅ Accessible – Proper labels, aria-describedby, and keyboard navigation.
@@ -21,7 +21,7 @@ About (about.html) – Reflective page sharing bio, goals, areas of growth, and 
 ✅ Semantic HTML – Well-structured, meaningful markup for SEO and clarity.
 ✅ Live Clock – Real-time display of local time and timezone on the profile card.
 
-🛠 Tech Stack
+🛠 Tech Stack -
 
 HTML 5
 
@@ -29,7 +29,8 @@ CSS 3 (with custom variables & media queries)
 
 Vanilla JavaScript
 
-💻Quick Start
+💻Quick Start -
+
 git clone [https://github.com/MickGared/HNG-Stage-1-Profile-Card.git]
 
 Then simply open index.html in your browser. 🌍
