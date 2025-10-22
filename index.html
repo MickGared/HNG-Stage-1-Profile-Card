@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balogun Ayobami Micheal — Profile Card</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #0b5; color: #fff; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 .5rem; text-decoration: none; }
+    nav a:hover, nav a[aria-current="page"] { text-decoration: underline; }
+    main { display: flex; justify-content: center; align-items: center; padding: 1.5rem; }
+    .profile-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      max-width: 400px;
+      box-shadow: 0 3px 10px rgba(0,0,0,.1);
+      text-align: center;
+    }
+    .user-avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: .5rem;
+    }
+    .time-container-inline {
+      margin-top: .5rem;
+      font-size: .9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="profile-card" data-testid="test-profile-card">
+      <figure class="avatar-container">
+        <img 
+          src="./assets/IMG_2745.JPG" 
+          alt="Profile Picture of Balogun Ayobami Micheal" 
+          class="user-avatar"
+          data-testid="test-user-avatar"
+        />
+        <figcaption>Profile Avatar</figcaption>
+      </figure>
+
+      <h2 class="user-name" data-testid="test-user-name">Balogun Ayobami Micheal</h2>
+      <p class="user-title">Front-end Developer (Web)</p>
+
+      <p class="user-bio" data-testid="test-user-bio">
+        Abuja-based front-end developer focused on crafting clean, accessible, and human-centered interfaces. Passionate about performance, detail, and innovation.
+      </p>
+
+      <div class="time-container-inline" aria-label="local time">
+        <span class="clock-icon">⏰</span>
+        <span id="user-time" data-testid="test-user-time"></span>
+        <span id="timezone"></span>
+      </div>
+
+      <nav class="socials" aria-label="social links" data-testid="test-user-social-links">
+        <a href="#" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+      </nav>
+
+      <section class="extra-info">
+        <div class="card">
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Forex Trading</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Being Broke</li>
+            <li>Procrastination</li>
+            <li>Slow Internet</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <small>Built with ❤️ — Minimal & Responsive</small>
+      </footer>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
